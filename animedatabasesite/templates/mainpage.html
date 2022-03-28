@@ -1,0 +1,70 @@
+{% extends "index.html" %}
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>ANIME DATABASE</title>
+
+	<a id="animedatafon"><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\Rectangle 1.png"alt=""></a>
+	<a id="kolvofon"><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\Rectangle 15.png" alt=""></a>
+
+	<h1 id="animedatabase">ANIME DATABASE</h1> 
+	<h2 id="kolvo">Количество тайтлов на сайте:{{ num_animes }}</h2>
+
+</head>
+<body>
+	<div class="topmenu">
+
+	<ul class="topmenu-list">
+
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\registration.html" id="registration">Registration</a></li>
+
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\about_us.html" id="about-us">About us</a></li>
+
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\contacts.html" id="contacts">Contacts</a></li>
+
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\mainpage.html" id="home-page" class="active">Home page</a></li>
+
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\new_titles.html" id="new-titles">New titles</a></li>
+
+		<li><div class="btn-group" role="group">
+
+		 <button type="submit" class="btn btn-secondary"
+		 onclick="window.location.href='add_anime';">Add new anime</button>
+
+		</div></li>
+	</ul>
+</div>
+
+<h3 id="search">поиск определенного тайтла:^^</h3>
+
+<form action="Поиск определенного тайтла" method="get">
+
+  <input name="s" placeholder="Поиск по сайту" type="search">
+
+  <button type="submit">Искать</button>
+
+</form>
+
+<h4 id="welcome">Добро пожаловать на сайт!
+Тут вы можете найти интересные и новые тайтлы с отзывами 
+от реальных людей или сами писать отзывы и делиться этим сайтом со своими друзьями<3</h4>
+
+<p><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg" id="mainpic" ></p>
+
+</body>
+<!-- {% for author in authors %}
+  <h1>{{author.name}}</h1>
+{% endfor %}   -->
+<footer>
+    <div class="footer-content">
+        <h4>Marina Novikova</h4>
+    </div>
+    <div class="footer-bottom">
+           <p>©2021—2022 project</p>
+    </div>
+</footer>
+</html>
