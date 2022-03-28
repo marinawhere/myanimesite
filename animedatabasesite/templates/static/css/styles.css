@@ -46,39 +46,26 @@ h2 #kolvo {
 
 	transform: matrix(1, 0, 0, 1, 0, 0);
 }
-/* Rectangle 15 */
-/*
-#kolvofon{
-position: absolute;
-width: 323.41px;
-height: 52.97px;
-left: 1074.38px;
-top: 60.23px;
+/* Group1 */
 
-background: #F9CEFA;
-transform: matrix(1, 0, 0, 1, 0, 0);
-}
-/* Rectangle 1 */
-/*
-#animedatafon {
+#kolvofon{
 position: absolute;
 width: 1440px;
 height: 146px;
 left: 0px;
-top: 0px;
+top: 0px;;
+}
 
-background: #C4C4C4;
-}*/
 /* Registration */
 
-.topmenu.topmenu-list a #registration {
+.topmenu.topmenu-list li a #registration {
 	position: absolute;
 	width: 490px;
 	height: 58px;
 	left: -38px;
 	top: 155px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 20px;
@@ -120,7 +107,7 @@ background: #B470D5;*/
 	left: 22px;
 	top: 224px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 20px;
@@ -149,7 +136,7 @@ background: #B470D5;*/
 	left: 14px;
 	top: 287px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 20px;
@@ -178,7 +165,7 @@ background: #B470D5;
 	left: 27px;
 	top: 359px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 20px;
@@ -208,7 +195,7 @@ background: #B470D5;
 	left: 148px;
 	top: 430px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 20px;
@@ -248,7 +235,7 @@ background: #DCB0EC;
 	left: 16px;
 	top: 510.27px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 24px;
@@ -281,7 +268,7 @@ height: 19px;
 left: 501px;
 top: 184px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: italic;
 font-weight: 800;
 font-size: 24px;
@@ -322,7 +309,7 @@ h4 #welcome{
 	left: 22px;
 	top: 592px;
 
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: italic;
 	font-weight: 800;
 	font-size: 24px;
@@ -340,7 +327,7 @@ p img #mainpic{
 	left: -2px;
 	top: 806px;
 
-	background: url(mainpic.jpg);
+	background: url(C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg);
 }
 
 
