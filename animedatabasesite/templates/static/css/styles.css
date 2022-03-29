@@ -9,42 +9,25 @@ body {
 }
 
 /* ANIME DATABASE */
-h1 #animedatabase {
-	position: absolute;
-	width: 1417px;
-	height: 202px;
-	left: calc(50% - 1417px/2 - 243.5px);
-	top: calc(50% - 202px/2 - 391px);
+h1 .animedatabase{
+	color: #723F8A;
+	font-size: 300%;
 
 	font-family: 'Inter', sans-serif;
-/*	font-style: italic;*/
-	font-weight: 800;
-	font-size: 96px;
-	line-height: 116px;
-	text-align: center;
 
-	color: #723F8A;
 }
 
 /* Всего тайтлов на сайте: */
+.rectangle {
+  height: 146px;
+  width: 1440px;
+  background-color: #C89EFE;
+}
 
-h2 #kolvo {
-	position: absolute;
-	width: 398.12px;
-	height: 49.97px;
-	left: 1042px;
-	top: 20.28px;
-
-	font-family: 'Inter', sans-serif;
-/*	font-style: italic;*/
-	font-weight: 800;
-	font-size: 24px;
-	line-height: 29px;
-	text-align: center;
-
+h2 .kolvo{
 	color: #723F8A;
-
-	transform: matrix(1, 0, 0, 1, 0, 0);
+	font-family: 'Inter', sans-serif;
+	font-size: 100%;
 }
 /* Group1 */
 
@@ -88,7 +71,7 @@ top: 146px;
 background: #B470D5;*/
 
 /* About us */
-.topmenu.topmenu-list {
+/*.topmenu.topmenu-list {
 	background-color: #B470D4;
 	overflow: hidden;
 }
@@ -99,7 +82,7 @@ background: #B470D5;*/
 .topmenu.topmenu-list li a:hover {
   background-color: #ddd;
   color: black;
-}
+}*/
 .topmenu.topmenu-list li a #about-us {
 	position: absolute;
 	width: 366px;
@@ -320,7 +303,7 @@ h4 #welcome{
 }
 /* mainpic.jpeg */
 
-p img #mainpic{
+p .mainpic{
 	position: absolute;
 	width: 426px;
 	height: 218px;
