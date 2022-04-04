@@ -1,6 +1,8 @@
+
 {% extends "index.html" %}
 {% load static %}
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
@@ -19,44 +21,51 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
-	<title>ANIME DATABASE</title>
-
+	<title>REGISTRATION</title>
 	
+	<h1><div class="animedatabase">ANIME DATABASE</div></h1> 
+	<h2><div class="kolvo">Количество тайтлов на сайте:{{ num_animes }}</div></h2>
 	
-	<title>about us</title>
-	<h1>ANIME DATABASE</h1>
 
 </head>
 <body>
+<body>
+<div class="content">
 	<div class="topmenu">
 
 	<ul class="topmenu-list">
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\registration.html" id="registration" class="active">Registration</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\registration.html"><div class="registration">Registration</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\about_us.html" id="about-us">About us</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\about_us.html"> <div class="about-us">About us</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\contacts.html" id="contacts">Contacts</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\contacts.html"><div class="contacts">Contacts</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\mainpage.html" id="home-page">Home page</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\mainpage.html"class="active"><div class="home-page">Home page</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\new_titles.html" id="new-titles">New titles</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\new_titles.html"> <div class="new-titles">New titles</div></a></li>
 
 		<li><div class="btn-group" role="group">
 
 		 <button type="submit" class="btn btn-secondary"
-		 onclick="window.location.href='add-anime';">Add new anime</button>
+		 onclick="window.location.href='add_anime';">Add new anime</button>
 
 		</div></li>
 	</ul>
 </div>
-<h1>registration</h1>
-<h4>для того чтобы оставлять отзывы и оценивать аниме авторизируйтесь</h4>
-<h4 id="welcome">Добро пожаловать на сайт!
-Тут вы можете найти интересные и новые тайтлы с отзывами 
-от реальных людей или сами писать отзывы и делиться этим сайтом со своими друзьями<3</h4>
 
-<p><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg" id="mainpic" ></p>
+<div class="registration-h1">
+<h1>registration</h1>
+</div>
+
+<div class="registration-h4">
+<h4>для того чтобы оставлять отзывы и оценивать аниме авторизируйтесь</h4>
+</div>
+
+<h4> <div class="welcome"><p>Добро пожаловать на сайт!<p>
+Тут вы можете найти новые <p>интересные тайтлы с отзывами <p>
+от реальных людей или сами<p> писать отзывы и делиться<p> своими впечатлениями и этим <p>сайтом со своими друзьями<3</div></h4>
+<p><div class="mainpic"><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg" width="250" height="130"></div></p>
 </body>
 
 <footer>

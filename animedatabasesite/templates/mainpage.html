@@ -1,6 +1,7 @@
 {% extends "index.html" %}
 {% load static %}
 <!doctype html>
+
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
@@ -20,26 +21,26 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
 	<title>ANIME DATABASE</title>
-
-
-	<h1 id="animedatabase">ANIME DATABASE</h1> 
-	<h2 id="kolvo">Количество тайтлов на сайте:{{ num_animes }}</h2>
+	<h1><div class="animedatabase">ANIME DATABASE</div></h1> 
+	<h2><div class="kolvo">Количество тайтлов на сайте:{{ num_animes }}</div></h2>
 
 </head>
+
 <body>
+<div class="content">
 	<div class="topmenu">
 
 	<ul class="topmenu-list">
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\registration.html" id="registration">Registration</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\registration.html"><div class="registration">Registration</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\about_us.html" id="about-us">About us</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\about_us.html"> <div class="about-us">About us</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\contacts.html" id="contacts">Contacts</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\contacts.html"><div class="contacts">Contacts</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\mainpage.html" id="home-page" class="active">Home page</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\mainpage.html"class="active"><div class="home-page">Home page</div></a></li>
 
-		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\new_titles.html" id="new-titles">New titles</a></li>
+		<li><a href="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\new_titles.html"> <div class="new-titles">New titles</div></a></li>
 
 		<li><div class="btn-group" role="group">
 
@@ -50,22 +51,22 @@
 	</ul>
 </div>
 
-<h3 id="search">поиск определенного тайтла:^^</h3>
+<h3><div class="search">поиск определенного тайтла:^^</div></h3>
 
-<form action="Поиск определенного тайтла" method="get">
+<div class="searching-area"><form action="Поиск определенного тайтла" method="get">
 
   <input name="s" placeholder="Поиск по сайту" type="search">
 
   <button type="submit">Искать</button>
 
-</form>
+</form></div>
 
-<h4 id="welcome">Добро пожаловать на сайт!
-Тут вы можете найти интересные и новые тайтлы с отзывами 
-от реальных людей или сами писать отзывы и делиться этим сайтом со своими друзьями<3</h4>
+<h4> <div class="welcome"><p>Добро пожаловать на сайт!<p>
+Тут вы можете найти новые <p>интересные тайтлы с отзывами <p>
+от реальных людей или сами<p> писать отзывы и делиться<p> своими впечатлениями и этим <p>сайтом со своими друзьями<3</div></h4>
 
-<p><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg" id="mainpic" ></p>
-
+<p><div class="mainpic"><img src="C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg" width="250" height="130"></div></p>
+</div>
 </body>
 <!-- {% for author in authors %}
   <h1>{{author.name}}</h1>

@@ -1,343 +1,232 @@
 /* Desktop - 1 */
 
 body {
-	position: relative;
-	width: 1440px;
-	height: 1024px;
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+   } 
 
-	background: #FFFFFF;
-}
 
 /* ANIME DATABASE */
-h1 #animedatabase {
-	position: absolute;
-	width: 1417px;
-	height: 202px;
-	left: calc(50% - 1417px/2 - 243.5px);
-	top: calc(50% - 202px/2 - 391px);
-
-	font-family: 'Inter', sans-serif;
-/*	font-style: italic;*/
-	font-weight: 800;
-	font-size: 96px;
-	line-height: 116px;
-	text-align: center;
-
+h1 .animedatabase{
+	position: absolute
+	top:0px;
 	color: #723F8A;
+	font-size: 300%;
+	font-family: 'Inter', sans-serif;
+	background: #C89EFE; 
+    padding: 20px;
+
 }
 
-/* Всего тайтлов на сайте: */
 
-h2 #kolvo {
+h2 .kolvo{
 	position: absolute;
-	width: 398.12px;
-	height: 49.97px;
-	left: 1042px;
-	top: 20.28px;
-
-	font-family: 'Inter', sans-serif;
-/*	font-style: italic;*/
-	font-weight: 800;
-	font-size: 24px;
-	line-height: 29px;
-	text-align: center;
-
+	top:0;
+	right:0;
 	color: #723F8A;
-
-	transform: matrix(1, 0, 0, 1, 0, 0);
-}
-/* Group1 */
-
-#kolvofon{
-position: absolute;
-width: 1440px;
-height: 146px;
-left: 0px;
-top: 0px;;
-}
-
-/* Registration */
-
-.topmenu.topmenu-list li a #registration {
-	position: absolute;
-	width: 490px;
-	height: 58px;
-	left: -38px;
-	top: 155px;
-
 	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
+	font-size: 50%;
+}
 
+.topmenu {
+	line-height: 3;
+	position: absolute;
+	top:199px;
+	margin-left: 0%;
+    padding-left: 1;
+    float: left;
+    background: #B470D4;
+    width: 297px; 
+
+}
+
+
+.registration {
+	top:0;
 	color: #FFFFFF;
+	font-size: 100%;
+
+	font-family: 'Inter', sans-serif;
 
 }
 
-/* Rectangle 19 */
+.about-us {
+	color: #FFFFFF;
+	font-size: 100%;
 
-
-/*position: absolute;
-width: 427px;
-height: 44px;
-left: 0px;
-top: 146px;
-
-background: #B470D5;*/
-
-/* About us */
-.topmenu.topmenu-list {
-	background-color: #B470D4;
-	overflow: hidden;
+	font-family: 'Inter', sans-serif;
 }
+
+
 .topmenu.topmenu-list li a.active {
-	background-color: #723F8A;
+  	background-color: #723F8A;
 	color: white;
 }
 .topmenu.topmenu-list li a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
-.topmenu.topmenu-list li a #about-us {
-	position: absolute;
-	width: 366px;
-	height: 90px;
-	left: 22px;
-	top: 224px;
-
-	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
-
-	color: #FFFFFF;
-}
-/* Rectangle 23 */
 
 
-/*position: absolute;
-width: 427px;
-height: 44px;
-left: 0px;
-top: 216px;
-
-background: #B470D5;*/
 
 /* Contacts */
 
-.topmenu.topmenu-list li a #contacts { 
-	position: absolute;
-	width: 381px;
-	height: 120px;
-	left: 14px;
-	top: 287px;
+.contacts { 
+	color: #FFFFFF;
+	font-size: 100%;
 
 	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
-
-	color: #FFFFFF;
 }
-/* Rectangle 22 */
 
-
-/*position: absolute;
-width: 427px;
-height: 44px;
-left: 0px;
-top: 280px;
-
-background: #B470D5;
 
 /* Home page */
 
-.topmenu.topmenu-list li a #home-page {
-	position: absolute;
-	width: 361px;
-	height: 94px;
-	left: 27px;
-	top: 359px;
+.home-page {
+	color: #FFFFFF;
+	font-size: 100%;
 
 	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
-
-	color: #FFFFFF;
 }
-/* Rectangle 21 */
 
-
-/*position: absolute;
-width: 427px;
-height: 44px;
-left: 0px;
-top: 350px;
-
-background: #B470D5;
 
 /* New titles */
 
-.topmenu.topmenu-list li a #new-titles {
-
-	position: absolute;
-	width: 100px;
-	height: 48px;
-	left: 148px;
-	top: 430px;
-
-	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
+.new-titles {
 
 	color: #FFFFFF;
+	font-size: 100%;
+	font-family: 'Inter', sans-serif;
 }
-/* Rectangle 20 */
-
-
-/*position: absolute;
-width: 427px;
-height: 44px;
-left: 0px;
-top: 418px;
-
-background: #B470D5;
-
-/* Rectangle 17 */
-
-
-/*position: absolute;
-width: 427px;
-height: 341px;
-left: 0px;
-top: 146px;
-
-background: #DCB0EC;
 
 /* Add new anime */
 
 .topmenu.topmenu-list .btn-group .btn .btn-secondary {
-	position: absolute;
-	width: 381.44px;
-	height: 48.97px;
-	left: 16px;
-	top: 510.27px;
+	color: #FFFFFF;
+	font-size: 100%;
 
 	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 24px;
-	line-height: 29px;
-	text-align: center;
-
-	color: #FFFFFF;
 
 }
 
-
-/* Rectangle 16 */
-
-
-/*position: absolute;
-width: 429.32px;
-height: 84.95px;
-left: -2px;
-top: 487.29px;
-
-background: #B470D5;
-transform: matrix(1, 0, 0, 1, 0, 0);
-
-/* поиск определенного тайтла:^^ */
-
-h3 #search{
-position: absolute;
-width: 912px;
-height: 19px;
-left: 501px;
-top: 184px;
-
-font-family: 'Inter', sans-serif;
-font-style: italic;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #FFFFFF;
+.mainpic{
+	position: absolute;
+	top: 700px;
 }
-/* Rectangle 7 */
 
-
-/*position: absolute;
-width: 413px;
-height: 38px;
-left: 751px;
-top: 184px;
-
-background: #B470D5;
-
-/* Rectangle 3 */
-
-
-/*position: absolute;
-width: 914px;
-height: 77px;
-left: 500px;
-top: 234px;
-
-border: 1px solid #000000;
-box-sizing: border-box;
 
 /* Добро пожаловать на сайт! Тут вы можете найти интересные и новые тайтлы с отзывами от реальных людей или сами писать отзывы и делиться этим сайтом со своими друзьями<3 */
 
-h4 #welcome{
+h4 .welcome {
 	position: absolute;
-	width: 398px;
-	height: 159px;
-	left: 22px;
-	top: 592px;
 
+	top: 460px;
+	color: #B470D4;
+	font-size: 100%;
+	padding: 2px;
 	font-family: 'Inter', sans-serif;
-	font-style: italic;
-	font-weight: 800;
-	font-size: 24px;
-	line-height: 29px;
-	text-align: center;
-
-	color: #B470D5;
+    background: #F1EDED;
+    height: 400px; 
 }
-/* mainpic.jpeg */
-
-p img #mainpic{
+h3 .search {
 	position: absolute;
-	width: 426px;
-	height: 218px;
-	left: -2px;
-	top: 806px;
-
-	background: url(C:\Users\Марина Новикова\Desktop\myanimesite\animedatabasesite\templates\static\images\mainpic.jpg);
+	right: 500px;
+	color: #FFFFFF;
+	font-size: 100%;
+	font-family: 'Inter', sans-serif;
+	background: #B470D4;
+	width: 400px; 
 }
 
+.searching-area {
+	position: absolute;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	right: 100px;
+	width: 800px; 
+}
 
-/* Rectangle 2 */
+.abus-h1 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	right: 50px;
+	font-size: 200%;
+	height:200px;
+	width: 800px; 
+}
 
-/*
-position: absolute;
-width: 429px;
-height: 452px;
-left: -2px;
-top: 572px;
+.abus-h4 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	font-size: 100%;
+	right: 100px;
+	height:200px;
+	width: 300px; 
+}
+.contacts-h1 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	right: 50px;
+	font-size: 200%;
+	height:200px;
+	width: 800px; 
+}
 
-background: rgba(196, 196, 196, 0.34);*/
+.contacts-h4 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	font-size: 100%;
+	right: 100px;
+	height:200px;
+	width: 300px; 
+}
+.newtitles-h1 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	right: 50px;
+	font-size: 200%;
+	height:200px;
+	width: 800px; 
+}
+
+.newtitles-h4 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	font-size: 100%;
+	right: 100px;
+	height:200px;
+	width: 300px; 
+}
+.registration-h1 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	right: 50px;
+	font-size: 200%;
+	height:200px;
+	width: 800px; 
+}
+
+.registration-h4 {
+	position: absolute;
+	color:#B470D4;
+	font-family: 'Inter', sans-serif;
+	top:300px;
+	font-size: 100%;
+	right: 100px;
+	height:200px;
+	width: 300px; 
+}
