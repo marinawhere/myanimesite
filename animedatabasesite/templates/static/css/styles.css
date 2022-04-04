@@ -9,6 +9,7 @@ body {
 
 /* ANIME DATABASE */
 h1 .animedatabase{
+<<<<<<< HEAD
 	position: absolute
 	top:0px;
 	color: #723F8A;
@@ -39,6 +40,35 @@ h2 .kolvo{
     background: #B470D4;
     width: 297px; 
 
+=======
+	color: #723F8A;
+	font-size: 300%;
+
+	font-family: 'Inter', sans-serif;
+
+}
+
+/* Всего тайтлов на сайте: */
+.rectangle {
+  height: 146px;
+  width: 1440px;
+  background-color: #C89EFE;
+}
+
+h2 .kolvo{
+	color: #723F8A;
+	font-family: 'Inter', sans-serif;
+	font-size: 100%;
+}
+/* Group1 */
+
+#kolvofon{
+position: absolute;
+width: 1440px;
+height: 146px;
+left: 0px;
+top: 0px;;
+>>>>>>> 1b21edae20f1a2144ba9551136bc0431b1ac562e
 }
 
 
@@ -59,13 +89,42 @@ h2 .kolvo{
 }
 
 
+<<<<<<< HEAD
+=======
+/* About us */
+/*.topmenu.topmenu-list {
+	background-color: #B470D4;
+	overflow: hidden;
+}
+>>>>>>> 1b21edae20f1a2144ba9551136bc0431b1ac562e
 .topmenu.topmenu-list li a.active {
   	background-color: #723F8A;
 	color: white;
 }
 .topmenu.topmenu-list li a:hover {
+<<<<<<< HEAD
 	background-color: #ddd;
 	color: black;
+=======
+  background-color: #ddd;
+  color: black;
+}*/
+.topmenu.topmenu-list li a #about-us {
+	position: absolute;
+	width: 366px;
+	height: 90px;
+	left: 22px;
+	top: 224px;
+
+	font-family: 'Inter', sans-serif;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+>>>>>>> 1b21edae20f1a2144ba9551136bc0431b1ac562e
 }
 
 
@@ -138,7 +197,11 @@ h3 .search {
 	width: 400px; 
 }
 
+<<<<<<< HEAD
 .searching-area {
+=======
+p .mainpic{
+>>>>>>> 1b21edae20f1a2144ba9551136bc0431b1ac562e
 	position: absolute;
 	font-family: 'Inter', sans-serif;
 	top:300px;
@@ -220,6 +283,7 @@ h3 .search {
 	width: 800px; 
 }
 
+<<<<<<< HEAD
 .registration-h4 {
 	position: absolute;
 	color:#B470D4;
@@ -230,3 +294,6 @@ h3 .search {
 	height:200px;
 	width: 300px; 
 }
+=======
+background: rgba(196, 196, 196, 0.34);*/
+>>>>>>> 1b21edae20f1a2144ba9551136bc0431b1ac562e
